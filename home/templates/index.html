@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<h1>Social Login</h1>
+	<p>Hola {{username}}!</p>
+	<a href="{% url 'log-out' %}" class="btn btn-danger btn-lg" role="button">Logout</a>
+{% endblock content %}
